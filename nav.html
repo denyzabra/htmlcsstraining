@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navigation  bar</title>
+    <style>
+      nav {
+display: block;
+position: absolute;
+top: 0;
+width: 100%;
+background-color:black;
+}
+li{
+list-style-type: none;
+display: inline;
+margin-right: 20px;
+font-size:25px
+}
+a:link {
+color: #fff;
+text-decoration: none;
+}
+a:hover {
+color: white;
+text-decoration: none;
+}
+li > ul {
+display: none
+}
+li:hover ul {display: block; position: absolute; left:200px;background-color:green;margin:0;}
+li:hover ul li a:link{display: block;margin-left:-30px;}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Domains</a></li>
+            <li><a href="#">Website</a></li>
+            <li><a href="#">Cloud</a></li>
+            <li><a href="#">Hosting</a></li>
+            <li><a href="#">Servers</a></li>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Who is</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
